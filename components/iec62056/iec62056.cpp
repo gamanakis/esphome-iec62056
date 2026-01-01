@@ -155,7 +155,7 @@ size_t IEC62056Component::receive_frame_() {
 }
 
 void IEC62056Component::send_battery_wakeup_sequence_() {
-  const size_t n = 84;  //~2.24s
+  const size_t n = 228;  //~2.24s
   static_assert(n <= MAX_OUT_BUF_SIZE, "Out buffer too small");
   memset(out_buf_, 0, n);
   data_out_size_ = n;
