@@ -146,7 +146,7 @@ class IEC62056Component : public Component, public uart::UARTDevice {
   static const char PROTO_C_RANGE_BEGIN = '0';
   static const char PROTO_C_RANGE_END = '6';
   static const size_t MAX_IN_BUF_SIZE = 128;
-  static const size_t MAX_OUT_BUF_SIZE = 233;
+  static const size_t MAX_OUT_BUF_SIZE = 228;
 
   /// @brief A list of sensors.
   SENSOR_MAP sensors_;
